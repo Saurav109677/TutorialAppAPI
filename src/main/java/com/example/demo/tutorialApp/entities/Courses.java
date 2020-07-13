@@ -8,30 +8,30 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="coursepost")
+//@Table(name="coursepost")
 public class Courses {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+//	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
 	
 	private String title;
 	
-	@Column(name="short_desc")
+//	@Column(name="short_desc")
 	private String shortDesc;
 	
-	@Column(name="long_desc")
+//	@Column(name="long_desc")
 	private String longDesc;
 	
-	@Column(name="image")
+//	@Column(name="image")
 	private String imagePath;
 	
 	private String author;
 	
-	@Column(name="entered_date")
+//	@Column(name="entered_date")
 	private String date;
 	
-	@Column(name="is_active")
+//	@Column(name="is_active")
 	private int isActive;
 
 	public String getTitle() {

@@ -1,0 +1,2 @@
+insert into courses values (100,'Krsna','2020/02/02','C://Desktop',1,'Angular 8 long description','Angular 8 short description','Angular 8' );
+insert into courses values (101,'Krsna','2020/02/02','C://Desktop',1,'Spring Boot long description','Spring Boot short description','Spring Boot' );
