@@ -1,2 +1,2 @@
 # TutorialAppAPI
-Provides API for tutorial app made in angular 8 
+[Spring Boot] Provides API for tutorial app made in angular 8 
